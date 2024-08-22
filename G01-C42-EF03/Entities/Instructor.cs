@@ -23,5 +23,6 @@ namespace C42_G01_EF01.Entities
 
 		public double HourlyRate { get; set; }
 		 
+		ICollection<Course> Courses { get; set; }
 	}
 }

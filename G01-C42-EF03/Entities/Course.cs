@@ -16,5 +16,7 @@ namespace C42_G01_EF01.Entities
 		public DateTime Duration { get; set; }
 
 		ICollection<Student> Students { get; set; }
+
+		ICollection <Instructor> Instructors { get; set; }
 	}
 }
